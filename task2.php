@@ -10,4 +10,6 @@
        }else{
       echo "Voter eligible to vote";
     }
+
+    
 ?>
