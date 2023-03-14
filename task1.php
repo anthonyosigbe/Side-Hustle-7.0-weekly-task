@@ -1,5 +1,5 @@
 <?php
-  $name = "<b>Anthony Azubike Osigbe</b>";
+  $name = "<b><h1>Anthony Azubike Osigbe<h1></b>";
 
   echo $name;
   
