@@ -14,7 +14,7 @@
 
 <?PHP
   
-   $insert_data = mysqli_query($db_connect, "INSERT INTO multiply(num1,num2,num3) VALUES('5', '5', '5')");
+   $insert_data = mysqli_query($db_connect, "INSERT INTO multiply(num1,num2,num3) VALUES('5', '5', '10')");
 
    if($insert_data){
     echo "<h1>Data saved Successfully<br></h1>";
@@ -38,7 +38,7 @@
 
   }
 
-    echo multiply(5,5);
+    echo multiply(5,10);
 
 
 ?>
